@@ -49,7 +49,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 # get zip
 echo "Downloading TC agent installer"
-sudo wget $1
+sudo wget -O /home/tcagent/buildagent/buildAgent.zip $1
 echo "Unzipping agent"
 unzip /home/tcagent/buildagent/buildAgent.zip -d /home/tcagent/buildagent
 
